@@ -33,7 +33,7 @@
   height: 50px;
   padding: 0px;
   padding-left: 2%;
-  border: 1px solid rgb(116, 107, 87);
+  border: 1px solid rgb(128, 125, 121);
   transition-duration: 0.4s;
 }
 
@@ -66,6 +66,11 @@
   transition-duration: 0.2s;
 }
 
+.ideaup-scrolled:hover {
+  text-shadow: 1px 4px 4px rgb(122, 93, 18);
+  transition-duration: 0.2s;
+}
+
 .nav-button {
   float: right;
   font-size: 18px;
@@ -92,5 +97,5 @@
 
 .but-nav:hover {
   color: rgb(4, 176, 255);
-  text-shadow: 0 1px 3px #acacac;
+  text-shadow: 0 2px 20px #ffffff, 0 1px 40px #ffffff;
 }

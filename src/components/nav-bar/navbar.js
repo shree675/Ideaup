@@ -39,9 +39,7 @@ class Navbar extends Component {
           <Link to="/" style={{ textDecoration: `none` }}>
             <div className={this.state.scrolled ? "ideaup" : "ideaup-scrolled"}>
               IDEA
-              <span style={{ color: `goldenrod` }}>
-                <i>UP</i>
-              </span>
+              <span style={{ color: `goldenrod` }}>UP</span>
             </div>
           </Link>
           <div className="right">
@@ -52,6 +50,16 @@ class Navbar extends Component {
             >
               <Link to="/" style={{ textDecoration: `none` }}>
                 <span className="but-nav">About Us</span>
+              </Link>
+            </div>
+
+            <div
+              className={
+                this.state.scrolled ? "nav-button" : "nav-button-scrolled"
+              }
+            >
+              <Link to="/" style={{ textDecoration: `none` }}>
+                <span className="but-nav">Associates</span>
               </Link>
             </div>
 
