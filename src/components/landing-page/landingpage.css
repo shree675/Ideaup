@@ -1,54 +1,99 @@
 .main {
-  width: 100%;
-  color: white;
+    width: 100%;
+    color: white;
 }
 
 .left {
-  float: left;
-  width: 50%;
-  margin-top: 13vh;
+    float: left;
+    width: 50%;
+    margin-top: 13vh;
 }
 
 .jumbotron-title {
-  padding-left: 10%;
-  /* font-family: "Open Sans", sans-serif; */
-  font-family: "Roboto", sans-serif;
-  font-size: 4vw;
-  margin-bottom: 0px;
-  /* width: 50%; */
+    padding-left: 10%;
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
+    margin-bottom: 0px;
+    /* width: 50%; */
 }
 
 .jumbotron-subs {
-  padding-left: 10%;
-  margin-top: 3%;
-  font-size: 1.5vw;
-  /* width: 40%; */
-  font-family: "Open Sans", sans-serif;
-  color: antiquewhite;
+    padding-left: 10%;
+    margin-top: 3%;
+    font-size: 1.5vw;
+    /* width: 40%; */
+    font-family: "Open Sans", sans-serif;
+    color: antiquewhite;
 }
 
 .jumb-cards {
-  width: 40%;
-  float: right;
-  display: flex;
-  justify-content: space-evenly;
+    width: 40%;
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .jumb-card {
-  background-color: #212121;
-  border-radius: 10px;
-  border: 1px solid rgb(131, 99, 19);
-  text-align: center;
-  padding: 10px;
-  margin: 10px;
-  width: 13vw;
-  margin-bottom: 30px;
+    background-color: #212121;
+    border-radius: 5px;
+    border: 1px solid rgb(131, 99, 19);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 13vw;
+    margin-bottom: 30px;
 }
 
 .card-content {
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  color: #cccccc;
-  margin-top: 10px;
-  margin-bottom: 10px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #cccccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.startup-section {
+    text-align: center;
+}
+
+.startup-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.45vw;
+}
+
+.startup-content {
+    margin-top: 2.5%;
+    font-size: 1.5vw;
+    font-family: "Open Sans", sans-serif;
+    color: antiquewhite;
+    margin-bottom: 3%;
+}
+
+.startupcard-display {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.stc-display {
+    flex: 0;
+}
+
+.more-sts-button {
+    margin-top: 40px;
+    padding: 12px;
+    font-size: 20px;
+    color: white;
+    width: fit-content;
+    float: left;
+    position: absolute;
+    left: 44%;
+    border-radius: 2px;
+    font-weight: 600;
+    background-color: goldenrod;
+}
+
+.more-sts-button:hover {
+    background-color: rgb(4, 176, 255);
+    box-shadow: 0 1px 8px rgba(255, 255, 255, 0.5);
 }
