@@ -1,8 +1,9 @@
-import { Component } from "react";
+import { Component,useState } from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
-
+import MenuIcon from '@material-ui/icons/Menu';
 class Navbar extends Component {
+ 
   constructor(props) {
     super(props);
 
@@ -30,7 +31,9 @@ class Navbar extends Component {
 
   render() {
     return (
+      <div className="mainwrap">
       <div className="navbar-main">
+        
         <div
           className={
             this.state.scrolled ? "inside-navbar" : "inside-navbar-scrolled"
@@ -43,6 +46,7 @@ class Navbar extends Component {
             </div>
           </Link>
           <div className="right">
+        
             <div
               className={
                 this.state.scrolled ? "nav-button" : "nav-button-scrolled"
@@ -75,7 +79,8 @@ class Navbar extends Component {
           </div>
         </div>
       </div>
-    );
+      </div>
+      );
   }
 }
 
