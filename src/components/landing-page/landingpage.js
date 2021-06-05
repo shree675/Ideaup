@@ -18,54 +18,55 @@ class LandingPage extends Component {
                 <Navbar />
 
                 <div style={{ height: `22vh` }}></div>
-                <div className="contentwrapper">
-                <div className='left'>
-                    <ScrollAnimation animateIn='animate__slideInUp' animateOnce={true} duration='1'>
-                        <div className='jumbotron-title'>A Leading One Stop</div>
-                        <div className='jumbotron-title'>Solutions Provider</div>
-                    </ScrollAnimation>
-                    <ScrollAnimation animateIn='animate__fadeIn' animateOnce={true} duration='2.5'>
-                        <div className='jumbotron-subs'>
-                            For all business support services required for all early stage businesses and through their journey beyond
+                <div className='contentwrapper'>
+                    <div className='left'>
+                        <ScrollAnimation animateIn='animate__slideInUp' animateOnce={true} duration='1'>
+                            <div className='jumbotron-title'>A Leading One Stop</div>
+                            <div className='jumbotron-title'>Solutions Provider</div>
+                        </ScrollAnimation>
+                        <ScrollAnimation animateIn='animate__fadeIn' animateOnce={true} duration='2.5'>
+                            <div className='jumbotron-subs'>
+                                For all business support services required for all early stage businesses and through their journey
+                                beyond
+                            </div>
+                        </ScrollAnimation>
+                    </div>
+
+                    <div className='jumb-cards'>
+                        <div id='fj1' style={{ flex: `1` }}>
+                            <ScrollAnimation animateIn='animate__zoomIn' animateOnce={true} duration='1'>
+                                <div className='jumb-card'>
+                                    <img src={startup} height='150px'></img>
+                                    <div className='card-content'>Kickstarting Businesses</div>
+                                </div>
+                            </ScrollAnimation>
+
+                            <ScrollAnimation animateIn='animate__zoomIn' animateOnce={true} duration='1'>
+                                <div className='jumb-card'>
+                                    <img src={growthchart} height='150px'></img>
+                                    <div className='card-content'>Growing Brands</div>
+                                </div>
+                            </ScrollAnimation>
                         </div>
-                    </ScrollAnimation>
-                </div>
 
-                <div className='jumb-cards'>
-                    <div id="fj1" style={{ flex: `1` }}>
-                        <ScrollAnimation animateIn='animate__zoomIn' animateOnce={true} duration='1'>
-                            <div className='jumb-card'>
-                                <img src={startup} height='150px'></img>
-                                <div className='card-content'>Kickstarting Businesses</div>
-                            </div>
-                        </ScrollAnimation>
+                        <div id='fj2' style={{ flex: `1` }}>
+                            <ScrollAnimation animateIn='animate__zoomIn' animateOnce={true} duration='1'>
+                                <div className='jumb-card'>
+                                    <img src={idea} height='150px'></img>
+                                    <div className='card-content'>Providing Ideas</div>
+                                </div>
+                            </ScrollAnimation>
 
-                        <ScrollAnimation animateIn='animate__zoomIn' animateOnce={true} duration='1'>
-                            <div className='jumb-card'>
-                                <img src={growthchart} height='150px'></img>
-                                <div className='card-content'>Growing Brands</div>
-                            </div>
-                        </ScrollAnimation>
-                    </div>
-
-                    <div  id="fj2" style={{ flex: `1` }}>
-                        <ScrollAnimation animateIn='animate__zoomIn' animateOnce={true} duration='1'>
-                            <div className='jumb-card'>
-                                <img src={idea} height='150px'></img>
-                                <div className='card-content'>Providing Ideas</div>
-                            </div>
-                        </ScrollAnimation>
-
-                        <ScrollAnimation animateIn='animate__zoomIn' animateOnce={true} duration='1'>
-                            <div className='jumb-card'>
-                                <img src={openbook} height='150px'></img>
-                                <div className='card-content'>Book Keeping</div>
-                            </div>
-                        </ScrollAnimation>
+                            <ScrollAnimation animateIn='animate__zoomIn' animateOnce={true} duration='1'>
+                                <div className='jumb-card'>
+                                    <img src={openbook} height='150px'></img>
+                                    <div className='card-content'>Book Keeping</div>
+                                </div>
+                            </ScrollAnimation>
+                        </div>
                     </div>
                 </div>
-                </div>
-             <div className="division"></div>
+                <div className='division'></div>
 
                 <div className='startup-section'>
                     <div className='startup-title'>Products by Ideaup</div>
@@ -74,20 +75,20 @@ class LandingPage extends Component {
                     </div>
 
                     <div className='startupcard-display'>
-                     
-                            <StartupCard img={econub} title='Econub' subs='Your local recycling map' revenue='20,000' />
-                            <StartupCard img={econub} title='Econub' subs='Your local recycling map' revenue='20,000' />
-                      
-                            <StartupCard img={econub} title='Econub' subs='Your local recycling map' revenue='20,000' />
-                            <StartupCard img={econub} title='Econub' subs='Your local recycling map' revenue='20,000' />
-                       
-                            <StartupCard img={econub} title='Econub' subs='Your local recycling map' revenue='20,000' />
-                            <StartupCard img={econub} title='Econub' subs='Your local recycling map' revenue='20,000' />
-                       
+                        <StartupCard img={econub} title='Econub' subs='Your local recycling map' revenue='20,000' />
+                        <StartupCard img={econub} title='Econub' subs='Your local recycling map' revenue='20,000' />
+
+                        <StartupCard img={econub} title='Econub' subs='Your local recycling map' revenue='20,000' />
+                        <StartupCard img={econub} title='Econub' subs='Your local recycling map' revenue='20,000' />
+
+                        <StartupCard img={econub} title='Econub' subs='Your local recycling map' revenue='20,000' />
+                        <StartupCard img={econub} title='Econub' subs='Your local recycling map' revenue='20,000' />
                     </div>
 
                     <Link to='/' style={{ textDecoration: `none` }}>
-                        <div id="up"><div className='more-sts-button'>More Startups ➝</div></div>
+                        <div id='up'>
+                            <div className='more-sts-button'>More Startups ➝</div>
+                        </div>
                     </Link>
 
                     <div style={{ height: `30px` }}></div>
