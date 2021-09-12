@@ -1,4 +1,4 @@
 # Ideaup
-Internship Project (frontend)
+Internship Project (frontend)  
 
-https://ideaup.herokuapp.com/
+https://ideaup.vercel.app/
